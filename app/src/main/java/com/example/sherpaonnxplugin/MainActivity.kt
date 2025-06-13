@@ -27,6 +27,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        System.loadLibrary("sherpa-onnx-jni")
     }
 }
 
